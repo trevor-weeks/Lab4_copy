@@ -570,3 +570,7 @@ coef.table
 landcovSelection2
 plot(landcovSelection2$selection, coef.table$Estimate)
 ```
+```{r eval=FALSE, include=FALSE}
+knitr::purl(input = "README.Rmd", output = "lab4.R", documentation = 1)
+
+```
